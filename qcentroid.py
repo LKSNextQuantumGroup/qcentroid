@@ -1,4 +1,5 @@
-from qiskit import QuantumCircuit, Aer, execute, IBMQ
+from qiskit import QuantumCircuit
+from qiskit_aer import Aer
 
 def run(input_data, solver_params, extra_arguments):
     #logger.info("Starting Solver...")
